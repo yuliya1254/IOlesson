@@ -1,0 +1,9 @@
+{
+  "name": "Peter",
+  "age": 18,
+  "student": false,
+  "hobby": {
+    "sport": "Football",
+    "creation": "Art"
+  }
+}

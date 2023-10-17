@@ -44,8 +44,9 @@ public class OpenZipTest {
                     final String[] first = content.get(0);
                     final String[] second = content.get(1);
 
-                    Assertions.assertArrayEquals(new String[]{"Mancera", "Hindu kush"}, content.get(0));
-                    Assertions.assertArrayEquals(new String[]{"Xerjoff", "Naxos"}, content.get(1));
+                    Assertions.assertArrayEquals(new String[]{"Mancera", "Hindu kush"}, first);
+                    Assertions.assertArrayEquals(new String[]{"Xerjoff", "Naxos"}, second);
+
 
 
                 }
