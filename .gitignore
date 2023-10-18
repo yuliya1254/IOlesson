@@ -1,0 +1,18 @@
+HELP.md
+build/
+!**/srs/main/**
+!**/srs/test/**
+
+##  Intellil IDEA ##
+.idea
+*.iws
+*.iml
+*.ipr
+
+## Gradle ##
+.gradle
+gradlew.bat
+gradlew
+
+## Logs ##
+*.log

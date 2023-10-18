@@ -10,7 +10,7 @@ import java.io.File;
 public class ParsingJsonTest {
 
     @Test
-    void ParsingJsonTest() throws Exception {
+    void parsingJsonTest() throws Exception {
 
         ObjectMapper mapper = new ObjectMapper();
         File file = new File("src/test/resources/simple.json");
